@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class inf_operaciones {
      
-    int numero_de_cuenta,saldo,contraseña,consignacion,retirar;
+    int numero_de_cuenta,saldos,contraseña,consignacion,retirar;
     String nombre_propietario;
 
     public inf_operaciones() {
@@ -20,7 +20,7 @@ public class inf_operaciones {
     }
     
   public int consultar_saldo(){
-        return saldo;
+        return saldos;
     }
   
   public String retirar(){
