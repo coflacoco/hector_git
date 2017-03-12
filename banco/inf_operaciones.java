@@ -1,4 +1,4 @@
-
+﻿
 package ejercicio.cuenta.banco;
 
 import java.util.Scanner;
@@ -27,7 +27,7 @@ public class inf_operaciones {
       
       if(saldo>0){
           saldo= saldo - retirar;
-          return ("transacion realizada");
+          return ("transacion hecha");
       }else{
          return("saldo insuficiente");
       }
@@ -36,7 +36,7 @@ public class inf_operaciones {
     
   
     
-    public int consigansiones(){
+    public int consigansion(){
         
         
           if (saldo>=0){
