@@ -15,7 +15,7 @@ namespace calculation
         double parte1;
         double parte2;
         double resultado;
-        string operacion;
+        string Operacion;
 
         public Form1()
         {
@@ -114,28 +114,28 @@ namespace calculation
 
         private void btnsuma_Click(object sender, EventArgs e)
         {
-            operacion = "+";
+            Operacion = "+";
             parte1 = double.Parse(pantalla.Text);
             pantalla.Clear();
         }
 
         private void btnresta_Click(object sender, EventArgs e)
         {
-            operacion = "-";
+            Operacion = "-";
             parte1 = double.Parse(pantalla.Text);
             pantalla.Clear();
         }
 
         private void btnmultiplicacion_Click(object sender, EventArgs e)
         {
-            operacion = "*";
+            Operacion = "*";
             parte1 = double.Parse(pantalla.Text);
             pantalla.Clear();
         }
 
         private void btndivision_Click(object sender, EventArgs e)
         {
-            operacion = "/";
+            Operacion = "/";
             parte1 = double.Parse(pantalla.Text);
             pantalla.Clear();
         }
@@ -147,7 +147,7 @@ namespace calculation
 
         private void btnRaiz_Click(object sender, EventArgs e)
         {
-            operacion = "Raiz";
+            Operacion = "Raiz";
             parte1 = double.Parse(pantalla.Text);
             resultado = parte1;
             pantalla.Text = Math.Sqrt(parte1).ToString();
